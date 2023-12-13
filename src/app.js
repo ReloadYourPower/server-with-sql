@@ -6,7 +6,7 @@ const app = express();
 const puerto = 3000;
 
 // Configuración de Sequelize para MySQL
-const sequelize = new Sequelize('app_schema', 'root', '@12Aresop23#', {
+const sequelize = new Sequelize('app_schema', 'user', 'tu-contraseña', {
   host: 'localhost',
   dialect: 'mysql',
 });
