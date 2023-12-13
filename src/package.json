@@ -1,0 +1,20 @@
+{
+  "name": "gestor",
+  "version": "1.0.1",
+  "description": "Gestor de proyectos para equippos y personales",
+  "main": "app.js",
+  "scripts": {
+    "test": "test",
+    "start": "node app.js"
+  },
+  "author": "Reload_You_Power",
+  "license": "ISC",
+  "dependencies": {
+    "@radix-ui/themes": "^2.0.2",
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "mysql2": "^3.6.5",
+    "sequelize": "^6.35.2",
+    "sqlite3": "^5.1.6"
+  }
+}
